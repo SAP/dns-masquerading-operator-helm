@@ -64,6 +64,7 @@ jobs:
           git config user.email "${{ vars.WORKFLOW_USER_EMAIL }}"
           git commit --allow-empty -m "Initial commit"
           git push --set-upstream origin helm-index
+          git checkout main
         fi
 
     - name: Checkout repository
@@ -109,7 +110,7 @@ jobs:
           "$upload_url?name=$(basename $file)"
 
     - name: Upload index
-      uses: actions/upload-pages-artifact@a753861a5debcf57bf8b404356158c8e1e33150c # v2
+      uses: actions/upload-pages-artifact@v2
       with:
         path: index
 

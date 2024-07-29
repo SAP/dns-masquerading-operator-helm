@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   dns-masquerading-operator:
   - apiVersion: v2
+    appVersion: v0.1.37
+    created: "2024-07-29T07:18:51.075396283Z"
+    description: A Helm chart for https://github.com/sap/dns-masquerading-operator
+    digest: 9a8a68c42711d8caf4b6f45e7e249f69d587d159f0218d6522a7c7dedf300e64
+    name: dns-masquerading-operator
+    type: application
+    urls:
+    - https://github.com/SAP/dns-masquerading-operator-helm/releases/download/0.1.37/dns-masquerading-operator-0.1.37.tgz
+    version: 0.1.37
+  - apiVersion: v2
     appVersion: v0.1.36
     created: "2024-07-22T07:18:49.548774527Z"
     description: A Helm chart for https://github.com/sap/dns-masquerading-operator
@@ -371,4 +381,4 @@ entries:
     urls:
     - https://github.com/SAP/dns-masquerading-operator-helm/releases/download/0.1.0/dns-masquerading-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-22T07:18:49.548219147Z"
+generated: "2024-07-29T07:18:51.074810116Z"
